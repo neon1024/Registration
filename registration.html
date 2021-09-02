@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="registration.css">
+
+    <script src="registration.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Register</title>
+
+</head>
+
+<body>
+    
+    <div class="register-container">
+
+        <div class="info">
+            <label>First Name:</label>
+            <input type="text" id="first name">
+        </div>
+
+        <div class="info">
+            <label>Last Name:</label>
+            <input type="text" id="last name">
+        </div>
+
+        <div class="info">
+            <label>Password:</label>
+            <input type="text" id="password">
+        </div>
+
+        <div class="info">
+            <label>Phone Number:</label>
+            <input type="text" id="phone number">
+        </div>
+
+        <br>
+
+        <button type="submit" onclick="registerClient(users)">Register</button>
+
+        <button type="button" onclick="showUser(users)">Show Data</button>
+
+        <br>
+
+        <div id="result" class="result-container">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
